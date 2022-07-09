@@ -6,13 +6,13 @@ public class SCops {
         n = 0;
 
         if (false && (++n < 100))
-            System.out.println("не отображается" + n);
-        System.out.println("if выполняется: " + n);
-        System.out.println("пропуск ");
+            System.out.println("РЅРµ РѕС‚РѕР±СЂР°Р¶Р°РµС‚СЃСЏ" + n);
+        System.out.println("if РІС‹РїРѕР»РЅСЏРµС‚СЃСЏ: " + n);
+        System.out.println("РїСЂРѕРїСѓСЃРє ");
 
         if (false & (++n < 100))
-        System.out.println("не отображается" + n);
-        System.out.println("if выполняется: " + n);
+        System.out.println("РЅРµ РѕС‚РѕР±СЂР°Р¶Р°РµС‚СЃСЏ" + n);
+        System.out.println("if РІС‹РїРѕР»РЅСЏРµС‚СЃСЏ: " + n);
 
     }
 }

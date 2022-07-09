@@ -5,24 +5,24 @@ public class AddMeth {
         Vehicle minivan = new Vehicle();
         Vehicle sportscar = new Vehicle();
         int range1, range2;
-// Присваивание значений полям в объекте minivan
+// РџСЂРёСЃРІР°РёРІР°РЅРёРµ Р·РЅР°С‡РµРЅРёР№ РїРѕР»СЏРј РІ РѕР±СЉРµРєС‚Рµ minivan
         minivan.passengers = 7;
         minivan.fuelcap = 16;
         minivan. mpg = 21;
-// Присваивание значений полям в объекте sportscar
+// РџСЂРёСЃРІР°РёРІР°РЅРёРµ Р·РЅР°С‡РµРЅРёР№ РїРѕР»СЏРј РІ РѕР±СЉРµРєС‚Рµ sportscar
         sportscar.passengers = 2;
         sportscar.fuelcap = 14;
         sportscar. mpg = 12;
-        // Расчет дальности поездки с полным баком горючего
+        // Р Р°СЃС‡РµС‚ РґР°Р»СЊРЅРѕСЃС‚Рё РїРѕРµР·РґРєРё СЃ РїРѕР»РЅС‹Рј Р±Р°РєРѕРј РіРѕСЂСЋС‡РµРіРѕ
         range1 = minivan.fuelcap * minivan.mpg;
         range2 = sportscar.fuelcap * sportscar.mpg;
-        System.out.print("Мини-фургон может перевезти " +
-                minivan.passengers + " пассажиров. ");
-        minivan.range();// отображение информации о дальности
-                        // поездки мини-фургона
-        System.out.print("Спортивный авто может перевезти " +
-                sportscar.passengers + " пассажиров. ");
-        sportscar.range();// отображение информации о дальности
-                            // поездки спорткара
+        System.out.print("РњРёРЅРё-С„СѓСЂРіРѕРЅ РјРѕР¶РµС‚ РїРµСЂРµРІРµР·С‚Рё " +
+                minivan.passengers + " РїР°СЃСЃР°Р¶РёСЂРѕРІ. ");
+        minivan.range();// РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РґР°Р»СЊРЅРѕСЃС‚Рё
+                        // РїРѕРµР·РґРєРё РјРёРЅРё-С„СѓСЂРіРѕРЅР°
+        System.out.print("РЎРїРѕСЂС‚РёРІРЅС‹Р№ Р°РІС‚Рѕ РјРѕР¶РµС‚ РїРµСЂРµРІРµР·С‚Рё " +
+                sportscar.passengers + " РїР°СЃСЃР°Р¶РёСЂРѕРІ. ");
+        sportscar.range();// РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ РёРЅС„РѕСЂРјР°С†РёРё Рѕ РґР°Р»СЊРЅРѕСЃС‚Рё
+                            // РїРѕРµР·РґРєРё СЃРїРѕСЂС‚РєР°СЂР°
     }
 }

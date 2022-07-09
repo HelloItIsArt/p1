@@ -2,6 +2,6 @@ package Example;
 
 public class Example {
     public static void main(String[] args) {
-        System.out.println("Java правит Интернетом!");
+        System.out.println("Java РїСЂР°РІРёС‚ РРЅС‚РµСЂРЅРµС‚РѕРј!");
     }
 }

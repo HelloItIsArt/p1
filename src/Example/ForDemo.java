@@ -6,9 +6,9 @@ public class ForDemo {
         int n = 0;
         for (count = 0;count < 5; count++){
             if (count < 5) n++;
-            System.out.println("Èòåðàöèÿ "+ n + " = " + count);}
-            //System.out.println("Èòåðàöèÿ "+ "= " + count);}
+            System.out.println("Ð˜Ñ‚ÐµÑ€Ð°Ñ†Ð¸Ñ "+ n + " = " + count);}
+            //System.out.println("Ð˜Ñ‚ÐµÑ€Ð°Ñ†Ð¸Ñ "+ "= " + count);}
 
-        System.out.println("Ãîòîâî!");
+        System.out.println("Ð“Ð¾Ñ‚Ð¾Ð²Ð¾!");
     }
 }

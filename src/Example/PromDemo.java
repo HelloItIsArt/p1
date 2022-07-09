@@ -6,7 +6,7 @@ public class PromDemo {
         byte b = 10;
         i = b * b;
         System.out.println(i);
-        b = (byte) (b *b); // без приведения выражения будет ошибка
-        System.out.println("i и b: " + i + " " + b);
+        b = (byte) (b *b); // Р±РµР· РїСЂРёРІРµРґРµРЅРёСЏ РІС‹СЂР°Р¶РµРЅРёСЏ Р±СѓРґРµС‚ РѕС€РёР±РєР°
+        System.out.println("i Рё b: " + i + " " + b);
     }
 }

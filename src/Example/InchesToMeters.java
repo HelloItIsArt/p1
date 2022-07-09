@@ -6,13 +6,13 @@ public class InchesToMeters {
         int counter;
         counter = 0;
         for (inch = 1; inch <= 144; inch++){
-            meter = inch / 39.37; // ïîäñ÷åò ìåòðîâ â äþéìå
+            meter = inch / 39.37; // Ð¿Ð¾Ð´ÑÑ‡ÐµÑ‚ Ð¼ÐµÑ‚Ñ€Ð¾Ð² Ð² Ð´ÑŽÐ¹Ð¼Ðµ
             System.out.println(inch + " inch = " +
                                 meter + " meter.");
             counter++;
             if (counter == 12) {
                 System.out.println();
-                counter = 0; // ñáðîñèòü ñ÷åò÷èê ñòðîê
+                counter = 0; // ÑÐ±Ñ€Ð¾ÑÐ¸Ñ‚ÑŒ ÑÑ‡ÐµÑ‚Ñ‡Ð¸Ðº ÑÑ‚Ñ€Ð¾Ðº
             }
         }
     }

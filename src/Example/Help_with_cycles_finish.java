@@ -5,7 +5,7 @@ public class Help_with_cycles_finish {
             throws java.io.IOException    {
         char choice, ignore;
         do {
-            System.out.println("Справка:");
+            System.out.println("РЎРїСЂР°РІРєР°:");
             System.out.println(" 1. if");
             System.out.println(" 2. switch");
             System.out.println(" 3. for");
@@ -13,7 +13,7 @@ public class Help_with_cycles_finish {
             System.out.println(" 5. do-while");
             System.out.println(" 6. break");
             System.out.println(" 7. continue\n");
-            System.out.print("Выберите (q - выход): ");
+            System.out.print("Р’С‹Р±РµСЂРёС‚Рµ (q - РІС‹С…РѕРґ): ");
 
             choice = (char) System.in.read();
 
@@ -26,40 +26,40 @@ public class Help_with_cycles_finish {
 
         switch (choice) {
             case '1':
-                System.out.println("Инструкция if:\n");
-                System.out.println("if(условие) инструкция;");
-                System.out.println("else инструкция;");
+                System.out.println("РРЅСЃС‚СЂСѓРєС†РёСЏ if:\n");
+                System.out.println("if(СѓСЃР»РѕРІРёРµ) РёРЅСЃС‚СЂСѓРєС†РёСЏ;");
+                System.out.println("else РёРЅСЃС‚СЂСѓРєС†РёСЏ;");
                 break;
             case '2':
-                System.out.println("Инструкция switch:\n");
-                System.out.println("switch(выражение) {");
-                System.out.println(" case константа:");
-                System.out.println(" последовательность инструкций");
+                System.out.println("РРЅСЃС‚СЂСѓРєС†РёСЏ switch:\n");
+                System.out.println("switch(РІС‹СЂР°Р¶РµРЅРёРµ) {");
+                System.out.println(" case РєРѕРЅСЃС‚Р°РЅС‚Р°:");
+                System.out.println(" РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ РёРЅСЃС‚СЂСѓРєС†РёР№");
                 System.out.println(" break;");
                 System.out.println(" // ...");
                 System.out.println("}");
                 break;
             case '3':
-                System.out.println("Цикл for:\n");
-                System.out.print("for(инициализация; условие; итерация)");
-                System.out.println(" инструкция;");
+                System.out.println("Р¦РёРєР» for:\n");
+                System.out.print("for(РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ; СѓСЃР»РѕРІРёРµ; РёС‚РµСЂР°С†РёСЏ)");
+                System.out.println(" РёРЅСЃС‚СЂСѓРєС†РёСЏ;");
                 break;
             case '4':
-                System.out.println("Цикл while:\n");
-                System.out.println("while(условие) инструкция;");
+                System.out.println("Р¦РёРєР» while:\n");
+                System.out.println("while(СѓСЃР»РѕРІРёРµ) РёРЅСЃС‚СЂСѓРєС†РёСЏ;");
                 break;
             case '5':
-                System.out.println("Цикл do-while:\n");
+                System.out.println("Р¦РёРєР» do-while:\n");
                 System.out.println("do {");
-                System.out.println(" инструкция;");
-                System.out.println("} while (условие);");
+                System.out.println(" РёРЅСЃС‚СЂСѓРєС†РёСЏ;");
+                System.out.println("} while (СѓСЃР»РѕРІРёРµ);");
                 break;
             case '6':
-                System.out.println("Инструкция break:\n");
-                System.out.println("break; или break метка;"); break;
+                System.out.println("РРЅСЃС‚СЂСѓРєС†РёСЏ break:\n");
+                System.out.println("break; РёР»Рё break РјРµС‚РєР°;"); break;
             case '7':
-                System.out.println("Инструкция continue:\n") ;
-                System.out.println("continue; или continue метка;");
+                System.out.println("РРЅСЃС‚СЂСѓРєС†РёСЏ continue:\n") ;
+                System.out.println("continue; РёР»Рё continue РјРµС‚РєР°;");
         }
     }
 }

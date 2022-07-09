@@ -6,13 +6,13 @@ public class GalToLitTable {
         int counter;
         counter = 0;
         for (gallons = 1; gallons <= 100; gallons++){
-            liters = gallons * 3.7854; // ïðåîáðàçîâàíèå â ëèòðû
-            System.out.println(gallons + " ãàëëîíàì ñîîòâåòñòâóåò " +
-                                liters + " ëèòðà.");
+            liters = gallons * 3.7854; // Ð¿Ñ€ÐµÐ¾Ð±Ñ€Ð°Ð·Ð¾Ð²Ð°Ð½Ð¸Ðµ Ð² Ð»Ð¸Ñ‚Ñ€Ñ‹
+            System.out.println(gallons + " Ð³Ð°Ð»Ð»Ð¾Ð½Ð°Ð¼ ÑÐ¾Ð¾Ñ‚Ð²ÐµÑ‚ÑÑ‚Ð²ÑƒÐµÑ‚ " +
+                                liters + " Ð»Ð¸Ñ‚Ñ€Ð°.");
             counter++;
             if (counter == 10) {
                 System.out.println();
-                counter = 0; // ñáðîñèòü ñ÷åò÷èê ñòðîê
+                counter = 0; // ÑÐ±Ñ€Ð¾ÑÐ¸Ñ‚ÑŒ ÑÑ‡ÐµÑ‚Ñ‡Ð¸Ðº ÑÑ‚Ñ€Ð¾Ðº
             }
         }
     }

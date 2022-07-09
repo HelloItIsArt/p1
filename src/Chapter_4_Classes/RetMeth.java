@@ -5,22 +5,22 @@ public class RetMeth {
         Vehicle minivan = new Vehicle();
         Vehicle sportscar = new Vehicle();
         int range1, range2;
-// Присваивание значений полям в объекте minivan
+// РџСЂРёСЃРІР°РёРІР°РЅРёРµ Р·РЅР°С‡РµРЅРёР№ РїРѕР»СЏРј РІ РѕР±СЉРµРєС‚Рµ minivan
         minivan.passengers = 7;
         minivan.fuelcap = 16;
         minivan. mpg = 21;
-// Присваивание значений полям в объекте sportscar
+// РџСЂРёСЃРІР°РёРІР°РЅРёРµ Р·РЅР°С‡РµРЅРёР№ РїРѕР»СЏРј РІ РѕР±СЉРµРєС‚Рµ sportscar
         sportscar.passengers = 2;
         sportscar.fuelcap = 14;
         sportscar. mpg = 12;
-        // Получение дальности поездки для разных т-средств
+        // РџРѕР»СѓС‡РµРЅРёРµ РґР°Р»СЊРЅРѕСЃС‚Рё РїРѕРµР·РґРєРё РґР»СЏ СЂР°Р·РЅС‹С… С‚-СЃСЂРµРґСЃС‚РІ
         range1 = minivan.range();
         range2 = sportscar.range();
-        System.out.println("Мини-фургон может перевезти " +
-                minivan.passengers + " пассажиров " + " на расстояние " +
-                range1 + " миль.");
-        System.out.println("Спортивный авто может перевезти " +
-                sportscar.passengers + " пассажиров " + " на расстояние " +
-                range2 + " миль.");
+        System.out.println("РњРёРЅРё-С„СѓСЂРіРѕРЅ РјРѕР¶РµС‚ РїРµСЂРµРІРµР·С‚Рё " +
+                minivan.passengers + " РїР°СЃСЃР°Р¶РёСЂРѕРІ " + " РЅР° СЂР°СЃСЃС‚РѕСЏРЅРёРµ " +
+                range1 + " РјРёР»СЊ.");
+        System.out.println("РЎРїРѕСЂС‚РёРІРЅС‹Р№ Р°РІС‚Рѕ РјРѕР¶РµС‚ РїРµСЂРµРІРµР·С‚Рё " +
+                sportscar.passengers + " РїР°СЃСЃР°Р¶РёСЂРѕРІ " + " РЅР° СЂР°СЃСЃС‚РѕСЏРЅРёРµ " +
+                range2 + " РјРёР»СЊ.");
     }
 }
